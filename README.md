@@ -1,2 +1,2 @@
 # metaverso_saude
-Aplicação web do Metaverso na Saúde
+Landing Page do Metaverso na Saúde
