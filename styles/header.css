@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    border-bottom: 2px solid var(--cor-secundaria);
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.menu__titulo {
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    width: 60%;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.menu__navigation {
+    width: 40%;
+}
+
+.navigation__single {
+    color: var(--cor-texto);
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+.navigation__single:hover {
+    text-decoration: underline 3px solid var(--cor-secundaria);
+}

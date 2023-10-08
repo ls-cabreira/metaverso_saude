@@ -1,0 +1,53 @@
+.apresentacao__intro {
+    display: flex;
+    border-bottom: 2px solid var(--cor-secundaria);
+    padding-bottom: 5%;
+}
+
+.intro__text-container {
+    margin-top: 10%;
+    width: 45%;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.text-container__titulo {
+    margin: 0 auto;
+    color: var(--cor-texto);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.text-container__titulo strong {
+    color: var(--cor-secundaria);
+}
+
+.text-container__titulo--colored {
+    color: var(--cor-secundaria);
+}
+
+.text-container__button {
+    cursor: pointer;
+    width: 70%;
+    margin-top: 10%;
+    padding: 2% 0;
+    background-color: var(--cor-secundaria);
+    border: 3px solid;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+.text-container__button:hover {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border: 3px solid var(--cor-secundaria);
+}
+
+.intro__img {
+    width: 55%;
+    border-bottom: 3px solid var(--cor-secundaria);
+    border-left: 3px solid var(--cor-secundaria);
+    border-bottom-left-radius: 20px;
+}

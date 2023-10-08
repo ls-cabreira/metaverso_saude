@@ -1,0 +1,40 @@
+.apresentacao__equipe {
+    padding: 5%;
+}
+
+.equipe__perfil {
+    width: 100%;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 2%;
+    border-radius: 16px;
+}
+
+.equipe__titulo {
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+
+.perfil__cargo {
+    font-style: italic;
+}
+
+.perfil__resumo {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.perfil__icones {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 2%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}

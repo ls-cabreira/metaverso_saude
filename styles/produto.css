@@ -1,0 +1,25 @@
+.apresentacao__produto {
+    padding: 5% 7%;
+    text-align: center;
+}
+
+.produto__titulo {
+    color: var(--cor-secundaria);
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.produto__texto {
+    color: var(--cor-texto);
+    margin-top: 3%;
+    border-left: 3px solid var(--cor-secundaria);
+    border-right: 3px solid var(--cor-secundaria);
+    border-radius: 16px;
+    padding: 2%;
+}
+
+.produto__video {
+    margin-top: 3%;
+    border: 3px solid var(--cor-secundaria);
+    border-radius: 16px;
+}
