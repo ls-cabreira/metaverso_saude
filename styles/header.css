@@ -26,3 +26,36 @@
 .navigation__single:hover {
     text-decoration: underline 3px solid var(--cor-secundaria);
 }
+
+@media screen and (max-width: 920px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 3% 0;
+    }
+
+    .menu__titulo {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .menu__navigation {
+        width: 100%;
+    }
+
+    .navigation__single {
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 16px;
+        padding: 1%;
+    }
+
+    .navigation__single:hover {
+        text-decoration: none;
+    }
+
+    .navigation__single:active {
+        text-decoration: none;
+        background-color: var(--cor-secundaria);
+        color: var(--cor-primaria);
+    }
+}
