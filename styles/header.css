@@ -15,12 +15,15 @@
 
 .menu__navigation {
     width: 40%;
+    display: flex;
 }
 
 .navigation__single {
     color: var(--cor-texto);
     text-decoration: none;
     margin: 0 2%;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .navigation__single:hover {
@@ -57,5 +60,30 @@
         text-decoration: none;
         background-color: var(--cor-secundaria);
         color: var(--cor-primaria);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        padding: 0 5%;
+    }
+
+    .menu__titulo {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .menu__navigation {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navigation__single {
+        vertical-align: baseline;
+        margin: 3% 2%;
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 16px;
+        padding: 2%;
     }
 }
