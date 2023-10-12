@@ -198,11 +198,18 @@
 
         <section class="apresentacao__galeria">
             <h2 class="galeria__titulo">Galeria</h2>
-            <div class="galeria__fotos-container">
-                <div class="fotos-container__single">Teste</div>
-                <div class="fotos-container__single">Teste</div>
-                <div class="fotos-container__single">Teste</div>
-                <div class="fotos-container__single">Teste</div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                       <div class="fotos-container">Teste</div>
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="fotos-container">Teste</div>
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="fotos-container">Teste</div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -215,12 +222,11 @@
     <script>
         const swiper = new Swiper('.swiper', {
             loop: true,
-            effect: 'coverflow',
             autoplay: {
-                delay: 4000,
+                delay: 3000,
             },
             spaceBetween: 20,
-            slidesPerView: 3,
+            slidesPerView: 1,
         });
     </script>
 </body>
