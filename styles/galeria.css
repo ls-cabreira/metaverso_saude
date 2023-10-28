@@ -12,8 +12,8 @@
 .fotos-container {
     margin: 2% auto;
     text-align: center;
-    width: 100%;
-    padding: 35% 0;
+    width: 80%;
+    padding: 20% 0;
     background-color: transparent;
     color: var(--cor-texto);
     border: 2px solid var(--cor-secundaria);

@@ -5,10 +5,18 @@
     padding: 1% 5%;
 }
 
+.menu-mobile-icon {
+    transition: 0.5s;
+    display: none;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/mais.png);
+}
+
 .menu__titulo {
     color: var(--cor-secundaria);
     text-transform: uppercase;
-    width: 60%;
+    width: 90%;
     font-weight: 100;
     font-style: italic;
 }
@@ -28,6 +36,10 @@
 
 .navigation__single:hover {
     text-decoration: underline 3px solid var(--cor-secundaria);
+}
+
+.menu__botao {
+    display: none;
 }
 
 @media screen and (max-width: 920px) {
@@ -63,14 +75,30 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .menu {
         padding: 0 5%;
     }
 
+    .menu__navigation {
+        display: none;
+    }
+
+    .menu__botao:checked ~ .menu__navigation {
+        display: flex;
+    }
+
+    .menu__botao:checked ~ .label-menu > .menu-mobile-icon {
+       transform: rotate(45deg);
+    }
+
+    .menu-mobile-icon {
+        display: inline-block;
+    }
+
     .menu__titulo {
         width: 100%;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
     }
 
     .menu__navigation {
